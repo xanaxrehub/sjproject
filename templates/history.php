@@ -1,47 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ihor Shtefanets">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <title>HorWood</title>
-</head>
-<body>
-  <!--Navbar-->
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" width="64px" height="64px" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a id = "hov" class="nav-link p-3 text-white" href="index.html">DOMOV</a>
-              </li>
-              <li class="nav-item">
-                <a id = "hov" class="nav-link active p-3 text-white" href="history.html">UKRAINE</a>
-              </li>
-              <li class="nav-item">
-                <a id = "hov" class="nav-link p-3 text-white" href="zaujimavosti.html">ZAUJÍMAVOSTI</a>
-              </li>
-              <li class="nav-item">
-                <a id = "hov" class="nav-link p-3 text-white" href="kontakt.html">KONTAKT</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!--/Navbar-->
+<?php
+    include_once('partials/header.php');
+?> 
       <!--Centered image-->
       <div id="image" class="container-fluid text-center">
-        <img style="opacity: 0.6;" src="img/background2.jpg" class="img-fluid rounded o-ukrajine-img" width="1560px" alt="">
+        <img style="opacity: 0.6;" src="../assets/img/background2.jpg" class="img-fluid rounded o-ukrajine-img" width="1560px" alt="">
         <h1 style="text-transform: uppercase; color: #304040; font-size: 50px; font-family: 'Kaushan Script', cursive;" class="centered">
           O Ukrajine</h1>
       </div>
@@ -50,32 +12,32 @@
       <div class="container-fluid" style="padding-top: 50px; padding-left: 50px; padding-right: 50px;" >
         <div class="row gx-5 gy-5 text-center">
           <div class="col-lg-2 stat mx-auto rounded" style="line-height: 0.5; padding-top: 25px;">
-            <img src="img/ukraine.png" width="64px" alt="" class="rounded">
+            <img src="../assets/img/ukraine.png" width="64px" alt="" class="rounded">
             <p class="stat-up" style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; padding-top: 25px;">Úradný jazyk:</p>
             <p style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; font-weight: bold;">Ukrajinčina</p>
           </div>
           <div class="col-lg-2 stat mx-auto rounded" style="line-height: 0.5; padding-top: 25px;">
-            <img src="img/home.png" width="64px" alt="" class="rounded">
+            <img src="../assets/img/home.png" width="64px" alt="" class="rounded">
             <p class="stat-up" style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; padding-top: 25px;">Kapitál:</p>
             <p style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; font-weight: bold;">Kyjev</p>
           </div>
           <div class="col-lg-2 stat mx-auto rounded" style="line-height: 0.5; padding-top: 25px;">
-            <img src="img/goal.png" width="64px" alt="" class="rounded">
+            <img src="../assets/img/goal.png" width="64px" alt="" class="rounded">
             <p class="stat-up" style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; padding-top: 15px; line-height: 1.2;">Získanie nezávislosti:</p>
             <p style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; font-weight: bold;">24 augusta 1991</p>
           </div>
           <div class="col-lg-2 stat mx-auto rounded">
-            <img src="img/people.png" width="64px" alt="" class="rounded" style="line-height: 0.5; padding-top: 25px;">
+            <img src="../assets/img/people.png" width="64px" alt="" class="rounded" style="line-height: 0.5; padding-top: 25px;">
             <p class="stat-up" style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; padding-top: 20px; line-height: 1.2;">Ľudí:</p>
             <p style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; font-weight: bold;">47 732 079</p>
           </div>
           <div class="col-lg-2 stat mx-auto rounded">
-            <img src="img/value.png" width="64px" alt="" class="rounded" style="line-height: 0.5; padding-top: 25px;">
+            <img src="../assets/img/value.png" width="64px" alt="" class="rounded" style="line-height: 0.5; padding-top: 25px;">
             <p class="stat-up" style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; padding-top: 20px; line-height: 1.2;">Mena:</p>
             <p style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; font-weight: bold;">Hrivna (UAH)</p>
           </div>
           <div class="col-lg-2 stat mx-auto rounded">
-            <img src="img/time.png" width="64px" alt="" class="rounded" style="line-height: 0.5; padding-top: 25px;">
+            <img src="../assets/img/time.png" width="64px" alt="" class="rounded" style="line-height: 0.5; padding-top: 25px;">
             <p class="stat-up" style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; padding-top: 20px; line-height: 1.2;">Časové pásmo::</p>
             <p style="color: #C9D1C8; font-family: 'Montserrat', sans-serif; font-weight: bold;">GMT+2 (UTC+2)</p>
           </div>
@@ -128,20 +90,13 @@
       <div class="container" style="padding-top: 50px;">
         <div class="row gx-5 gy-5 text-center" style="padding-bottom: 50px;"> 
           <div class="col fakts1 mx-auto p-4 rounded">
-            <img src="img/culture.png" width="120px" alt="">
+            <img src="../assets/img/culture.png" width="120px" alt="">
             <h3 style="padding-top: 5px; color: #c9d1c8; font-family: 'Montserrat', sans-serif; font-weight: 700;">Kultúra</h3>
             <p style="padding-top: 10px; color: #c9d1c8; font-family: 'Montserrat', sans-serif;">Často sa hovorí, že Ukrajina sa nachádza medzi východom a západom. Ukrajinská kultúra je skutočne jasnou kombináciou kultúr rôznych národov, ktoré žili a žijú na území Ukrajiny. To je to, čo ho robí tak zaujímavým.</p>
             <p style="color: #c9d1c8; font-family: 'Montserrat', sans-serif;">Oficiálna stránka Ukraine vám povie o modernom ukrajinskom divadle, architektúre, fotografii, literatúre, hudbe, módnych trendoch v odievaní, vizuálnom umení, kinematografii a grafickom dizajne. Na stránke nájdete informácie o pripravovaných kultúrnych a športových podujatiach, festivaloch, ako aj zoznam múzeí a galérií, ktoré sa oplatí navštíviť. Ukrajina má svetu čo ukázať.</p>
           </div>
         </div>
       </div>
-        <div class="container" style="padding-bottom: 50px;">
-          <div class="row gx-5 gy-5 text-center">
-            <div class="col-lg-6 fakts1 mx-auto p-1 rounded">
-              <img src="img/культура.jpeg" width="800px" class="img-fluid rounded" alt="">
-            </div>
-          </div>
-        </div>
         <div class="container" style="padding-bottom: 50px;">
           <div class="row gx-5 gy-5 text-center">
             <div class="col fakts1 mx-auto p-4 rounded">
@@ -155,10 +110,10 @@
         <div class="container" style="padding-bottom: 50px;">
           <div class="row gx-5 gy-5 text-center">
             <div class="col-lg-5 fakts1 mx-auto p-1 rounded">
-              <img src="img/ukrainenarod1.jpg" width="600px" class="img-fluid rounded" alt="">
+              <img src="../assets/img/ukrainenarod1.jpg" width="600px" class="img-fluid rounded" alt="">
             </div>
             <div class="col-lg-5 fakts1 mx-auto p-1 rounded">
-              <img src="img/Ukraine_narod_2.jpg" width="600px" style="padding-top: 7px; padding-bottom: 7px;" class="img-fluid rounded" alt="">
+              <img src="../assets/img/Ukraine_narod_2.jpg" width="600px" style="padding-top: 7px; padding-bottom: 7px;" class="img-fluid rounded" alt="">
             </div>
           </div>
         </div>
@@ -167,7 +122,7 @@
         <div class="container">
           <div class="row gx-5 gy-5 text-center" style="padding-bottom: 50px;">
             <div class="col fakts1 mx-auto p-4 rounded">
-              <img src="img/cousine.png" width="120px" alt="">
+              <img src="../assets/img/cousine.png" width="120px" alt="">
               <h3 style="padding-top: 5px; color: #c9d1c8; font-family: 'Montserrat', sans-serif; font-weight: 700;">Kuchyňa</h3>
               <p style="padding-top: 10px; color: #c9d1c8; font-family: 'Montserrat', sans-serif;">Ukrajinská kuchyňa so svojimi rozmanitými chuťami a technikami varenia je dôležitou súčasťou kultúrneho dedičstva krajiny. Odráža osobitosti regiónov krajiny a kulinárske dedičstvo rôznych etnických a národnostných spoločenstiev Ukrajiny.
  
@@ -182,7 +137,7 @@
         <div class="container" style="padding-bottom: 50px;">
           <div class="row gx-5 gy-5 text-center">
             <div class="col-lg-6 fakts1 mx-auto p-1 rounded">
-              <img src="img/borsch.jpg" width="800px" class="img-fluid rounded" alt="">
+              <img src="../assets/img/borsch.jpg" width="800px" class="img-fluid rounded" alt="">
             </div>
           </div>
       </div>
@@ -227,29 +182,6 @@
         </div>
       </div>
       <!--Otaznik-->
-      <!--Footer-->
-      <footer class="text-center" style="background-color: #5B7065; font-family: 'Montserrat', sans-serif;">
-        <div class="container p-4">
-          <section class="mb-4">
-            <a id = "hov" class="btn btn-floating m-1" style="background-color: #3b5998; border-radius: 40%;" href="https://sk-sk.facebook.com/" role="button"><img src="img/iconmonstr-facebook-4.svg" width="24px" alt=""></i></a>
-            <a id = "hov" class="btn btn-floating m-1" style="background-color: #55acee; border-radius: 40%;" href="https://twitter.com/" role="button"><img src="img/twitter.png" width="24px" alt=""></a>
-            <a id = "hov" class="btn btn-floating m-1" style="background-color: #dd4b39; border-radius: 40%;" href="https://www.youtube.com/" role="button"><img src="img/iconmonstr-youtube-6-240.png" width="24px" alt=""></i></a>
-            <a id = "hov" class="btn btn-floating m-1" style="background-color: #ac2bac; border-radius: 40%;" href="https://www.instagram.com/" role="button"><img src="img/instagram.png" width="24px" alt=""></a>
-            <a id = "hov" class="btn btn-floating m-1" style="background-color: #333333; border-radius: 40%;" href="https://github.com/" role="button"><img src="img/github.png" width="24px" alt=""></a>
-          </section>
-          <section class="mb-4">
-              <h3>HorWood</h3>
-              <p>stránky, ktoré vytvoria atmosféru cestovania, ponoria vás do kultúry úplne inej krajiny</p>
-          </section>
-          <h4>Kontaktujte nás</h4>
-          <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:livia.kelebercova@gmail.com" style="color: #c9d1c8; font-weight: bold; text-decoration: none;">shtefanets206@gmail.com</a></i>
-          <i class="fa fa-phone" aria-hidden="true"><a href="tel:0909500600" style="color: #c9d1c8; padding-left: 20px; font-weight: bold; text-decoration: none;">0905052535</a></i>
-        </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2023 Copyright:
-          Ihor Shtefanets
-        </div>
-      </footer>
-      <!--Footer-->
-</body>
-</html>
+<?php
+  include_once('partials/footer.php')
+?> 
